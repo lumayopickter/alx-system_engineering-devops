@@ -1,0 +1,6 @@
+#!/bin/bash
+chown pickter hello
+#!/bin/bash
+chown lumayo hello
+#!/bin/bash
+chown pictor hello
