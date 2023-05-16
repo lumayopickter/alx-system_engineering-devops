@@ -1,5 +1,3 @@
-# 8-cwd_state
+# 9-duplicate_last_line
 
-This script creates a `README.md` file, runs the `ls -la` command, and redirects the output to `ls_cwd_content`. It then initializes a Git repository, adds and commits the files, and pushes the changes to a remote repository on GitHub.
-
-ALX System Engineering & DevOps
+This script duplicates the last line of the file `iacta` located in the working directory. It appends the duplicated line at the end of the file.
