@@ -1,10 +1,17 @@
 #!/bin/bash
 
-# Read the last line of the file iacta
-last_line=$(tail -n 1 iacta)
+# Check if the file "iacta" exists
+if [ -f "iacta" ]; then
+  # Get the last line of the file
+  last_line=$(tail -n 1 "iacta")
 
-# Append the last line to the file iacta
-echo "$last_line" >> iacta
+  # Print the last line
+  echo "Last line: $last_line"
 
-# Print the contents of the file iacta
-cat iacta
+  # Append the last line to the file
+  echo "$last_line" >> "iacta"
+
+  echo "Last line duplicated successfully."
+else
+  echo "The file 'iacta' does not exist in the current directory."
+fi
