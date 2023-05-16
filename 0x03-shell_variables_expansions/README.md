@@ -1,19 +1,15 @@
-# 1-hello_you
+## 2-path
 
-This script prints "hello user", where user is the current Linux user.
+This script adds `/action` to the `PATH` environment variable. It ensures that `/action` is the last directory the shell looks into when searching for a program.
 
-## Usage
+### Usage
 
-1. Open a terminal.
-2. Navigate to the directory where the script is located.
-3. Run the script by executing the following command:
-4. The script will display "hello" followed by your Linux username.
+1. Run the script using the `source` command
 
-## Example
+2. Verify that `/action` has been added to the `PATH`:
 
+### Repository Information
 
-In the above example, the script is executed and it greets the user with the username "julien".
-
-Feel free to modify and use the script according to your needs.
-
- 
+GitHub repository: alx-system_engineering-devops
+Directory: 0x03-shell_variables_expansions
+File: 2-path
