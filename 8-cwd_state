@@ -1,18 +1,4 @@
 #!/bin/bash
 
-# Run the command 'ls -la' and save the output to the file 'ls_cwd_content'
+# Run ls -la command and redirect the output to ls_cwd_content
 ls -la > ls_cwd_content
-
-# Display the current directory contents
-echo "total 20"
-ls -la | tail -n +4
-
-# Execute the script '8-cwd_state'
-./8-cwd_state
-
-# Display the current directory contents again
-echo "total 24"
-ls -la | tail -n +4
-
-# Display the contents of the file 'ls_cwd_content'
-cat ls_cwd_content

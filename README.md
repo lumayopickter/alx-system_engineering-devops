@@ -1,2 +1,3 @@
-# Create a README.md file to describe the script
-echo "This script runs the 'ls -la' command, saves the output to the file 'ls_cwd_content', and displays the directory contents without the specific prompt." > README.md
+# 8-cwd_state
+
+This script creates a `README.md` file, runs the `ls -la` command, and redirects the output to `ls_cwd_content`. It then initializes a Git repository, adds and commits the files, and pushes the changes to a remote repository on GitHub.
