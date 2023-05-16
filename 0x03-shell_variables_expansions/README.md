@@ -1,0 +1,1 @@
+echo "This script creates an alias 'ls' that executes 'rm *'" 
