@@ -1,0 +1,27 @@
+total 68
+drwxr-xr-x 3 root root  4096 May 16 03:35 .
+drwxr-xr-x 6 root root   121 May 15 10:01 ..
+-rwxr-xr-x 1 root root   104 May 15 11:13 0-hello_world
+-rw-r--r-- 1 root root     0 May 15 10:01 0-hello_world~
+-rwxr-xr-x 1 root root    28 May 15 11:26 1-confused_smiley
+-rw-r--r-- 1 root root     0 May 15 11:26 1-confused_smiley~
+-rw-r--r-- 1 root root 12288 May 15 11:24 .1-confused_smiley.swp
+-rwxr-xr-x 1 root root     0 May 15 12:21 #2-hellofile#
+lrwxrwxrwx 1 root root    23 May 15 12:21 .#2-hellofile -> root@489624373e0b.11396
+-rwxr-xr-x 1 root root    29 May 15 12:27 2-hellofile
+-rw-r--r-- 1 root root     0 May 15 11:54 2-hellofile~
+-rwxr-xr-x 1 root root    51 May 15 13:47 3-twofiles
+-rwxr-xr-x 1 root root    35 May 15 12:54 4-lastlines
+-rwxr-xr-x 1 root root    35 May 15 14:13 5-firstlines
+-rwxr-xr-x 1 root root    35 May 15 14:07 5-firstlines~
+-rwxr-xr-x 1 root root    41 May 15 14:23 6-third_line
+-rw-r--r-- 1 root root     0 May 15 14:22 6-third_line~
+-rwxr-xr-x 1 root root   223 May 15 14:45 7-file.sh
+-rwxr-xr-x 1 root root   397 May 16 03:27 8-cwd_state
+-rw-r--r-- 1 root root     0 May 16 03:22 8-cwd_state~
+drwxr-xr-x 8 root root   166 May 16 03:34 .git
+-rw-r--r-- 1 root root   801 May 15 14:30 iacta
+-rw-r--r-- 1 root root     0 May 15 14:30 iacta~
+-rw-r--r-- 1 root root     0 May 16 03:36 ls_cwd_content
+-rwxr-xr-x 1 root root   219 May 16 03:34 README.md
+-rwxr-xr-x 1 root root   293 May 15 14:26 README.md~
