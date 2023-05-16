@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Run ls -la command and redirect the output to ls_cwd_content
+ls -la > ls_cwd_content
