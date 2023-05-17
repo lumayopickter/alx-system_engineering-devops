@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Print the environment variables
+env | grep -v 'PATH'
