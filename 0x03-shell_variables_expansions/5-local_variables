@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Print local variables
+echo "Local Variables:"
+declare -p
+
+# Print environment variables
+echo "Environment Variables:"
+env
+
+# Print functions
+echo "Functions:"
+declare -F
