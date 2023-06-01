@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -n "" iacta | sed -n '3p' | cut -d ':' -f 2-
+head -3 iacta | tail -1
